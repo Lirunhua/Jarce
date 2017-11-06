@@ -1,0 +1,744 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="95">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="." name="0">
+      <in>ALGLIB_ap.cpp</in>
+      <in>ALGLIB_ap.h</in>
+      <in>ALGLIB_specialfunctions.cpp</in>
+      <in>ALGLIB_specialfunctions.h</in>
+      <in>AdaBoost.cpp</in>
+      <in>AdaBoost.h</in>
+      <in>AddressableInstanceStream.h</in>
+      <in>DTree.cpp</in>
+      <in>DTree.h</in>
+      <in>FILEtype.h</in>
+      <in>FeedBack.cpp</in>
+      <in>FeedBack.h</in>
+      <in>FilterSet.cpp</in>
+      <in>FilterSet.h</in>
+      <in>IndirectInstanceSample.cpp</in>
+      <in>IndirectInstanceSample.h</in>
+      <in>IndirectInstanceStream.cpp</in>
+      <in>IndirectInstanceStream.h</in>
+      <in>IndirectInstanceSubstream.cpp</in>
+      <in>IndirectInstanceSubstream.h</in>
+      <in>MDLDiscretiser.cpp</in>
+      <in>MDLDiscretiser.h</in>
+      <in>RFDTree.cpp</in>
+      <in>RFDTree.h</in>
+      <in>StoredIndirectInstanceStream.cpp</in>
+      <in>StoredIndirectInstanceStream.h</in>
+      <in>StoredInstanceStream.cpp</in>
+      <in>StoredInstanceStream.h</in>
+      <in>a2de.cpp</in>
+      <in>a2de.h</in>
+      <in>a2de2.cpp</in>
+      <in>a2de2.h</in>
+      <in>a2de3.cpp</in>
+      <in>a2de3.h</in>
+      <in>a3de.cpp</in>
+      <in>a3de.h</in>
+      <in>a3de3.cpp</in>
+      <in>a3de3.h</in>
+      <in>alglibinternal.cpp</in>
+      <in>alglibinternal.h</in>
+      <in>aode.cpp</in>
+      <in>aode.h</in>
+      <in>aodeChen.cpp</in>
+      <in>aodeChen.h</in>
+      <in>aodeDist.cpp</in>
+      <in>aodeDist.h</in>
+      <in>aodeEager.cpp</in>
+      <in>aodeEager.h</in>
+      <in>aodeMarkov.cpp</in>
+      <in>aodeMarkov.h</in>
+      <in>aode_order_ConMur.cpp</in>
+      <in>aode_order_ConMur.h</in>
+      <in>aodedouble.cpp</in>
+      <in>aodedouble.h</in>
+      <in>aodeselect.cpp</in>
+      <in>aodeselect.h</in>
+      <in>baggedLearner.cpp</in>
+      <in>baggedLearner.h</in>
+      <in>biasVarianceInstanceStream.cpp</in>
+      <in>biasVarianceInstanceStream.h</in>
+      <in>biasvariance.cpp</in>
+      <in>biasvariance.h</in>
+      <in>capabilities.cpp</in>
+      <in>capabilities.h</in>
+      <in>cmikdb.cpp</in>
+      <in>cmikdb.h</in>
+      <in>cmkdb.cpp</in>
+      <in>cmkdb.h</in>
+      <in>correlationMeasures.cpp</in>
+      <in>correlationMeasures.h</in>
+      <in>crosstab.h</in>
+      <in>crosstab3d.h</in>
+      <in>decisiontreekdb.cpp</in>
+      <in>decisiontreekdb.h</in>
+      <in>discretiser.cpp</in>
+      <in>discretiser.h</in>
+      <in>distributionTree.cpp</in>
+      <in>distributionTree.h</in>
+      <in>distributionTreeEager.cpp</in>
+      <in>distributionTreeEager.h</in>
+      <in>dpkdb_alldel.cpp</in>
+      <in>dpkdb_alldel.h</in>
+      <in>dpkdb_ndp_k2.cpp</in>
+      <in>dpkdb_ndp_k2.h</in>
+      <in>dpkdb_rec_p.cpp</in>
+      <in>dpkdb_rec_p.h</in>
+      <in>dpkdb_recursion_del.cpp</in>
+      <in>dpkdb_recursion_del.h</in>
+      <in>dpkdb_recursion_k2.cpp</in>
+      <in>dpkdb_recursion_k2.h</in>
+      <in>dpkdbrec.cpp</in>
+      <in>dpkdbrec.h</in>
+      <in>ensembleLearner.cpp</in>
+      <in>ensembleLearner.h</in>
+      <in>entropykdb.cpp</in>
+      <in>entropykdb.h</in>
+      <in>eqDepthDiscretiser.cpp</in>
+      <in>eqDepthDiscretiser.h</in>
+      <in>extLearnLibSVM.cpp</in>
+      <in>extLearnLibSVM.h</in>
+      <in>extLearnOMCLPBoost.cpp</in>
+      <in>extLearnOMCLPBoost.h</in>
+      <in>extLearnPetal.cpp</in>
+      <in>extLearnPetal.h</in>
+      <in>extLearnSVMSGD.cpp</in>
+      <in>extLearnSVMSGD.h</in>
+      <in>extLearnWeka.cpp</in>
+      <in>extLearnWeka.h</in>
+      <in>externLearner.cpp</in>
+      <in>externLearner.h</in>
+      <in>externXVal.h</in>
+      <in>featingLearner.cpp</in>
+      <in>featingLearner.h</in>
+      <in>globals.cpp</in>
+      <in>globals.h</in>
+      <in>hnb.cpp</in>
+      <in>hnb.h</in>
+      <in>hnb_aode.cpp</in>
+      <in>hnb_aode.h</in>
+      <in>hnb_waode.cpp</in>
+      <in>hnb_waode.h</in>
+      <in>incrementalLearner.cpp</in>
+      <in>incrementalLearner.h</in>
+      <in>instance.cpp</in>
+      <in>instance.h</in>
+      <in>instanceFile.cpp</in>
+      <in>instanceFile.h</in>
+      <in>instanceSample.cpp</in>
+      <in>instanceSample.h</in>
+      <in>instanceStream.cpp</in>
+      <in>instanceStream.h</in>
+      <in>instanceStreamClassFilter.cpp</in>
+      <in>instanceStreamClassFilter.h</in>
+      <in>instanceStreamDiscretiser.cpp</in>
+      <in>instanceStreamDiscretiser.h</in>
+      <in>instanceStreamFilter.cpp</in>
+      <in>instanceStreamFilter.h</in>
+      <in>kdb.cpp</in>
+      <in>kdb.h</in>
+      <in>kdbCondDisc.cpp</in>
+      <in>kdbCondDisc.h</in>
+      <in>kdbCondDisc2.cpp</in>
+      <in>kdbCondDisc2.h</in>
+      <in>kdbEager.cpp</in>
+      <in>kdbEager.h</in>
+      <in>kdbExt.h</in>
+      <in>kdbOri.cpp</in>
+      <in>kdbOri.h</in>
+      <in>kdb_FirstNoLimit.h</in>
+      <in>kdb_PH_norder.cpp</in>
+      <in>kdb_PH_norder.h</in>
+      <in>kdb_minH.cpp</in>
+      <in>kdb_minH.h</in>
+      <in>kdbext2.cpp</in>
+      <in>kdbext2.h</in>
+      <in>kdbtest.cpp</in>
+      <in>kdbtest.h</in>
+      <in>learner.cpp</in>
+      <in>learner.h</in>
+      <in>learnerRegistry.cpp</in>
+      <in>learnerRegistry.h</in>
+      <in>learningCurves.cpp</in>
+      <in>learningCurves.h</in>
+      <in>localkdb.cpp</in>
+      <in>localkdb.h</in>
+      <in>metadata.cpp</in>
+      <in>metadata.h</in>
+      <in>mtrand.cpp</in>
+      <in>mtrand.h</in>
+      <in>myhnb.cpp</in>
+      <in>myhnb.h</in>
+      <in>myhnb_new.cpp</in>
+      <in>myhnb_new.h</in>
+      <in>nb.cpp</in>
+      <in>nb.h</in>
+      <in>petal.cpp</in>
+      <in>random.cpp</in>
+      <in>random.h</in>
+      <in>sample.cpp</in>
+      <in>sample.h</in>
+      <in>sampler.cpp</in>
+      <in>sampler.h</in>
+      <in>smoothing.h</in>
+      <in>sortkdb.cpp</in>
+      <in>sortkdb.h</in>
+      <in>sortkdb_del.cpp</in>
+      <in>sortkdb_del.h</in>
+      <in>tan.cpp</in>
+      <in>tan.h</in>
+      <in>tan_gen.cpp</in>
+      <in>tan_gen.h</in>
+      <in>tan_pro.cpp</in>
+      <in>tan_pro.h</in>
+      <in>tantest.cpp</in>
+      <in>tantest.h</in>
+      <in>tctan.cpp</in>
+      <in>tctan.h</in>
+      <in>test_cmi.cpp</in>
+      <in>test_cmi.h</in>
+      <in>testan.cpp</in>
+      <in>testan.h</in>
+      <in>trainTest.cpp</in>
+      <in>trainTest.h</in>
+      <in>trainclasskdb.cpp</in>
+      <in>trainclasskdb.h</in>
+      <in>utils.cpp</in>
+      <in>utils.h</in>
+      <in>vfan.cpp</in>
+      <in>vfan.h</in>
+      <in>waode.cpp</in>
+      <in>waode.h</in>
+      <in>xVal.cpp</in>
+      <in>xVal.h</in>
+      <in>xValInstanceStream.cpp</in>
+      <in>xValInstanceStream.h</in>
+      <in>xxxxyDist.cpp</in>
+      <in>xxxxyDist.h</in>
+      <in>xxxxyDist3.cpp</in>
+      <in>xxxxyDist3.h</in>
+      <in>xxxyDist.cpp</in>
+      <in>xxxyDist.h</in>
+      <in>xxxyDist2.cpp</in>
+      <in>xxxyDist2.h</in>
+      <in>xxxyDist3.cpp</in>
+      <in>xxxyDist3.h</in>
+      <in>xxyDist.cpp</in>
+      <in>xxyDist.h</in>
+      <in>xxyDistEager.cpp</in>
+      <in>xxyDistEager.h</in>
+      <in>xyDist.cpp</in>
+      <in>xyDist.h</in>
+      <in>yDist.cpp</in>
+      <in>yDist.h</in>
+    </df>
+    <logicalFolder name="ExternalFiles"
+                   displayName="重要文件"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceFolderFilter>^(nbproject)$</sourceFolderFilter>
+  <sourceRootList>
+    <Elem>.</Elem>
+  </sourceRootList>
+  <projectmakefile>makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>false</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <codeAssistance>
+      </codeAssistance>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>.</buildCommandWorkingDir>
+          <buildCommand>${MAKE} -f Makefile</buildCommand>
+          <cleanCommand>${MAKE} -f Makefile clean</cleanCommand>
+          <executablePath>petal.exe</executablePath>
+          <ccTool>
+            <incDir>
+              <pElem></pElem>
+            </incDir>
+            <preprocessorList>
+              <Elem>NDEBUG</Elem>
+            </preprocessorList>
+          </ccTool>
+        </makeTool>
+      </makefileType>
+      <item path="ALGLIB_ap.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ALGLIB_ap.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ALGLIB_specialfunctions.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ALGLIB_specialfunctions.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="AdaBoost.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="AdaBoost.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="AddressableInstanceStream.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="DTree.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="DTree.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="FILEtype.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="FeedBack.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="FeedBack.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="FilterSet.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="FilterSet.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IndirectInstanceSample.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="IndirectInstanceSample.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IndirectInstanceStream.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="IndirectInstanceStream.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IndirectInstanceSubstream.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="IndirectInstanceSubstream.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MDLDiscretiser.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MDLDiscretiser.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="RFDTree.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="RFDTree.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="StoredIndirectInstanceStream.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="StoredIndirectInstanceStream.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="StoredInstanceStream.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="StoredInstanceStream.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="a2de.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="a2de.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="a2de2.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="a2de2.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="a2de3.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="a2de3.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="a3de.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="a3de.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="a3de3.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="a3de3.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="alglibinternal.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="alglibinternal.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="aode.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="aode.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="aodeChen.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="aodeChen.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="aodeDist.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="aodeDist.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="aodeEager.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="aodeEager.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="aodeMarkov.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="aodeMarkov.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="aode_order_ConMur.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="aode_order_ConMur.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="aodedouble.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="aodedouble.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="aodeselect.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="aodeselect.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="baggedLearner.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="baggedLearner.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="biasVarianceInstanceStream.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="biasVarianceInstanceStream.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="biasvariance.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="biasvariance.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="capabilities.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="capabilities.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cmikdb.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="cmikdb.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cmkdb.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="cmkdb.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="correlationMeasures.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="correlationMeasures.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="crosstab.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="crosstab3d.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="decisiontreekdb.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="decisiontreekdb.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="discretiser.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="discretiser.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="distributionTree.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="distributionTree.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="distributionTreeEager.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="distributionTreeEager.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="dpkdb_alldel.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="dpkdb_alldel.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="dpkdb_ndp_k2.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="dpkdb_ndp_k2.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="dpkdb_rec_p.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="dpkdb_rec_p.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="dpkdb_recursion_del.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="dpkdb_recursion_del.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="dpkdb_recursion_k2.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="dpkdb_recursion_k2.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="dpkdbrec.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="dpkdbrec.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ensembleLearner.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ensembleLearner.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="entropykdb.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="entropykdb.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="eqDepthDiscretiser.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="eqDepthDiscretiser.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="extLearnLibSVM.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="extLearnLibSVM.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="extLearnOMCLPBoost.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="extLearnOMCLPBoost.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="extLearnPetal.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="extLearnPetal.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="extLearnSVMSGD.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="extLearnSVMSGD.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="extLearnWeka.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="extLearnWeka.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="externLearner.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="externLearner.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="externXVal.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="featingLearner.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="featingLearner.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="globals.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="globals.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="hnb.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="hnb.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="hnb_aode.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="hnb_aode.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="hnb_waode.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="hnb_waode.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="incrementalLearner.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="incrementalLearner.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="instance.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="instance.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="instanceFile.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="instanceFile.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="instanceSample.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="instanceSample.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="instanceStream.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="instanceStream.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="instanceStreamClassFilter.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="instanceStreamClassFilter.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="instanceStreamDiscretiser.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="instanceStreamDiscretiser.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="instanceStreamFilter.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="instanceStreamFilter.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="kdb.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="kdb.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="kdbCondDisc.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="kdbCondDisc.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="kdbCondDisc2.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="kdbCondDisc2.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="kdbEager.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="kdbEager.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="kdbExt.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="kdbOri.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="kdbOri.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="kdb_FirstNoLimit.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="kdb_PH_norder.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="kdb_PH_norder.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="kdb_minH.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="kdb_minH.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="kdbext2.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="kdbext2.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="kdbtest.cpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="kdbtest.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="learner.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="learner.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="learnerRegistry.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="learnerRegistry.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="learningCurves.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="learningCurves.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="localkdb.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="localkdb.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="metadata.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="metadata.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="mtrand.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mtrand.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="myhnb.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="myhnb.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="myhnb_new.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="myhnb_new.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="nb.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="nb.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="petal.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="random.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="random.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sample.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="sample.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sampler.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="sampler.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="smoothing.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sortkdb.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="sortkdb.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sortkdb_del.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="sortkdb_del.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="tan.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="tan.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="tan_gen.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="tan_gen.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="tan_pro.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="tan_pro.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="tantest.cpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="tantest.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="tctan.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="tctan.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="test_cmi.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="test_cmi.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="testan.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="testan.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="trainTest.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="trainTest.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="trainclasskdb.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="trainclasskdb.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="utils.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="utils.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="vfan.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="vfan.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="waode.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="waode.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="xVal.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="xVal.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="xValInstanceStream.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="xValInstanceStream.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="xxxxyDist.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="xxxxyDist.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="xxxxyDist3.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="xxxxyDist3.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="xxxyDist.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="xxxyDist.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="xxxyDist2.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="xxxyDist2.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="xxxyDist3.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="xxxyDist3.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="xxyDist.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="xxyDist.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="xxyDistEager.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="xxyDistEager.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="xyDist.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="xyDist.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="yDist.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="yDist.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

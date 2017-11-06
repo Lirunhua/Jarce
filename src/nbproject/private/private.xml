@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <code-assistance-data xmlns="http://www.netbeans.org/ns/make-project-private/1">
+        <code-model-enabled>true</code-model-enabled>
+    </code-assistance-data>
+    <data xmlns="http://www.netbeans.org/ns/make-project-private/1">
+        <activeConfTypeElem>0</activeConfTypeElem>
+        <activeConfIndexElem>0</activeConfIndexElem>
+    </data>
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="1">
+        <file>
+            <url>incrementalLearner.cpp</url>
+            <bookmark id="1">
+                <name/>
+                <line>30</line>
+                <key/>
+            </bookmark>
+        </file>
+    </editor-bookmarks>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/E:/NetBeansWorkspace/final_src/src/correlationMeasures.cpp</file>
+            <file>file:/E:/NetBeansWorkspace/final_src/src/tantest.cpp</file>
+            <file>file:/E:/NetBeansWorkspace/final_src/src/kdbtest.cpp</file>
+            <file>file:/E:/NetBeansWorkspace/final_src/src/trainclasskdb.cpp</file>
+        </group>
+    </open-files>
+</project-private>

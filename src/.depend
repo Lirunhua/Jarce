@@ -1,0 +1,330 @@
+hnb_waode.o: hnb_waode.cpp hnb_waode.h incrementalLearner.h learner.h \
+ instanceStream.h instance.h capabilities.h xxxxyDist.h xxxyDist.h \
+ xxyDist.h xyDist.h smoothing.h utils.h mtrand.h FILEtype.h crosstab.h \
+ correlationMeasures.h crosstab3D.h globals.h
+waode.o: waode.cpp waode.h incrementalLearner.h learner.h \
+ instanceStream.h instance.h capabilities.h xxxxyDist.h xxxyDist.h \
+ xxyDist.h xyDist.h smoothing.h utils.h mtrand.h FILEtype.h crosstab.h \
+ correlationMeasures.h crosstab3D.h globals.h
+hnb_aode.o: hnb_aode.cpp hnb_aode.h incrementalLearner.h learner.h \
+ instanceStream.h instance.h capabilities.h xxxxyDist.h xxxyDist.h \
+ xxyDist.h xyDist.h smoothing.h utils.h mtrand.h FILEtype.h crosstab.h \
+ correlationMeasures.h crosstab3D.h globals.h
+myhnb_new.o: myhnb_new.cpp myhnb_new.h incrementalLearner.h learner.h \
+ instanceStream.h instance.h capabilities.h xxyDist.h xyDist.h \
+ smoothing.h yDist.h utils.h mtrand.h FILEtype.h crosstab.h \
+ correlationMeasures.h crosstab3D.h xxxyDist.h globals.h
+myhnb.o: myhnb.cpp myhnb.h incrementalLearner.h learner.h \
+ instanceStream.h instance.h capabilities.h xxyDist.h xyDist.h \
+ smoothing.h yDist.h utils.h mtrand.h FILEtype.h crosstab.h \
+ correlationMeasures.h crosstab3D.h xxxyDist.h globals.h
+hnb.o: hnb.cpp hnb.h incrementalLearner.h learner.h instanceStream.h \
+ instance.h capabilities.h distributionTree.h utils.h mtrand.h FILEtype.h \
+ crosstab.h xxyDist.h xyDist.h smoothing.h yDist.h correlationMeasures.h \
+ crosstab3D.h xxxyDist.h globals.h
+AdaBoost.o: AdaBoost.cpp AdaBoost.h learner.h instanceStream.h instance.h \
+ capabilities.h StoredInstanceStream.h AddressableInstanceStream.h \
+ instanceStreamFilter.h mtrand.h StoredIndirectInstanceStream.h \
+ IndirectInstanceStream.h instanceSample.h learnerRegistry.h utils.h \
+ FILEtype.h crosstab.h globals.h
+aodeselect.o: aodeselect.cpp aodeselect.h crosstab.h incrementalLearner.h \
+ learner.h instanceStream.h instance.h capabilities.h xxxyDist.h \
+ xxyDist.h xyDist.h smoothing.h utils.h mtrand.h FILEtype.h \
+ correlationMeasures.h crosstab3D.h globals.h
+sample.o: sample.cpp utils.h mtrand.h FILEtype.h crosstab.h \
+ instanceStream.h instance.h sample.h incrementalLearner.h learner.h \
+ capabilities.h xyDist.h smoothing.h
+vfan.o: vfan.cpp vfan.h incrementalLearner.h learner.h instanceStream.h \
+ instance.h capabilities.h xxxyDist.h xxyDist.h xyDist.h smoothing.h \
+ utils.h mtrand.h FILEtype.h crosstab.h correlationMeasures.h \
+ crosstab3D.h
+tan_gen.o: tan_gen.cpp tan_gen.h incrementalLearner.h learner.h \
+ instanceStream.h instance.h capabilities.h xxyDist.h xyDist.h \
+ smoothing.h utils.h mtrand.h FILEtype.h crosstab.h correlationMeasures.h \
+ crosstab3D.h xxxyDist.h
+TAN_pro.o: TAN_pro.cpp TAN_pro.h incrementalLearner.h learner.h \
+ instanceStream.h instance.h capabilities.h xxyDist.h xyDist.h \
+ smoothing.h utils.h mtrand.h FILEtype.h crosstab.h correlationMeasures.h \
+ crosstab3D.h xxxyDist.h
+xxxxyDist3.o: xxxxyDist3.cpp xxxxyDist3.h xxxyDist.h xxyDist.h \
+ instanceStream.h instance.h xyDist.h smoothing.h utils.h mtrand.h \
+ FILEtype.h crosstab.h
+a3de3.o: a3de3.cpp a3de3.h incrementalLearner.h learner.h \
+ instanceStream.h instance.h capabilities.h xxxxyDist3.h xxxyDist.h \
+ xxyDist.h xyDist.h smoothing.h crosstab.h crosstab3d.h utils.h mtrand.h \
+ FILEtype.h correlationMeasures.h globals.h
+a2de3.o: a2de3.cpp a2de3.h incrementalLearner.h learner.h \
+ instanceStream.h instance.h capabilities.h xxxyDist3.h xxyDist.h \
+ xyDist.h smoothing.h utils.h mtrand.h FILEtype.h crosstab.h \
+ correlationMeasures.h crosstab3D.h xxxyDist.h globals.h
+xxxyDist3.o: xxxyDist3.cpp xxxyDist3.h xxyDist.h instanceStream.h \
+ instance.h xyDist.h smoothing.h utils.h mtrand.h FILEtype.h crosstab.h \
+ xxxyDist.h globals.h
+a2de2.o: a2de2.cpp a2de2.h incrementalLearner.h learner.h \
+ instanceStream.h instance.h capabilities.h xxxyDist2.h xxyDist.h \
+ xyDist.h smoothing.h crosstab.h utils.h mtrand.h FILEtype.h \
+ correlationMeasures.h crosstab3D.h xxxyDist.h globals.h
+xxxyDist2.o: xxxyDist2.cpp xxxyDist2.h xxyDist.h instanceStream.h \
+ instance.h xyDist.h smoothing.h xxxyDist.h globals.h utils.h mtrand.h \
+ FILEtype.h crosstab.h
+sampler.o: sampler.cpp utils.h mtrand.h FILEtype.h crosstab.h \
+ instanceStream.h instance.h sampler.h incrementalLearner.h learner.h \
+ capabilities.h xyDist.h smoothing.h
+ensembleLearner.o: ensembleLearner.cpp ensembleLearner.h learner.h \
+ instanceStream.h instance.h capabilities.h xyDist.h smoothing.h \
+ RFDTree.h DTree.h IndirectInstanceStream.h AddressableInstanceStream.h \
+ instanceStreamFilter.h mtrand.h learnerRegistry.h StoredInstanceStream.h \
+ StoredIndirectInstanceStream.h utils.h FILEtype.h crosstab.h
+RFDTree.o: RFDTree.cpp RFDTree.h DTree.h learner.h instanceStream.h \
+ instance.h capabilities.h IndirectInstanceStream.h \
+ AddressableInstanceStream.h instanceStreamFilter.h mtrand.h xyDist.h \
+ smoothing.h StoredInstanceStream.h StoredIndirectInstanceStream.h \
+ correlationMeasures.h crosstab.h crosstab3D.h xxyDist.h xxxyDist.h \
+ utils.h FILEtype.h
+featingLearner.o: featingLearner.cpp featingLearner.h learner.h \
+ instanceStream.h instance.h capabilities.h instanceStreamDiscretiser.h \
+ instanceStreamFilter.h discretiser.h DTree.h IndirectInstanceStream.h \
+ AddressableInstanceStream.h mtrand.h xyDist.h smoothing.h \
+ learnerRegistry.h StoredInstanceStream.h StoredIndirectInstanceStream.h \
+ utils.h FILEtype.h crosstab.h
+DTree.o: DTree.cpp DTree.h learner.h instanceStream.h instance.h \
+ capabilities.h IndirectInstanceStream.h AddressableInstanceStream.h \
+ instanceStreamFilter.h mtrand.h xyDist.h smoothing.h \
+ StoredInstanceStream.h StoredIndirectInstanceStream.h \
+ correlationMeasures.h crosstab.h crosstab3D.h xxyDist.h xxxyDist.h \
+ utils.h FILEtype.h
+xxxxyDist.o: xxxxyDist.cpp xxxxyDist.h xxxyDist.h xxyDist.h \
+ instanceStream.h instance.h xyDist.h smoothing.h
+a3de.o: a3de.cpp a3de.h incrementalLearner.h learner.h instanceStream.h \
+ instance.h capabilities.h xxxxyDist.h xxxyDist.h xxyDist.h xyDist.h \
+ smoothing.h crosstab.h crosstab3d.h utils.h mtrand.h FILEtype.h \
+ correlationMeasures.h globals.h
+a2de.o: a2de.cpp a2de.h incrementalLearner.h learner.h instanceStream.h \
+ instance.h capabilities.h xxxyDist.h xxyDist.h xyDist.h smoothing.h \
+ crosstab.h utils.h mtrand.h FILEtype.h correlationMeasures.h \
+ crosstab3D.h globals.h
+distributionTreeEager.o: distributionTreeEager.cpp \
+ distributionTreeEager.h instanceStream.h instance.h utils.h mtrand.h \
+ FILEtype.h crosstab.h smoothing.h
+distributionTree.o: distributionTree.cpp distributionTree.h \
+ instanceStream.h instance.h utils.h mtrand.h FILEtype.h crosstab.h \
+ smoothing.h
+IndirectInstanceSample.o: IndirectInstanceSample.cpp \
+ IndirectInstanceSample.h AddressableInstanceStream.h \
+ instanceStreamFilter.h instanceStream.h instance.h mtrand.h
+trainTest.o: trainTest.cpp trainTest.h instanceFile.h instanceStream.h \
+ instance.h utils.h mtrand.h FILEtype.h crosstab.h FilterSet.h \
+ instanceStreamFilter.h learner.h capabilities.h globals.h \
+ instanceStreamDiscretiser.h discretiser.h correlationMeasures.h \
+ crosstab3D.h xyDist.h smoothing.h xxyDist.h xxxyDist.h
+ALGLIB_ap.o: ALGLIB_ap.cpp ALGLIB_ap.h
+eqDepthDiscretiser.o: eqDepthDiscretiser.cpp eqDepthDiscretiser.h \
+ discretiser.h instanceStream.h instance.h utils.h mtrand.h FILEtype.h \
+ crosstab.h globals.h
+IndirectInstanceStream.o: IndirectInstanceStream.cpp \
+ IndirectInstanceStream.h AddressableInstanceStream.h \
+ instanceStreamFilter.h instanceStream.h instance.h mtrand.h \
+ IndirectInstanceSubstream.h
+learner.o: learner.cpp learner.h instanceStream.h instance.h \
+ capabilities.h
+utils.o: utils.cpp utils.h mtrand.h FILEtype.h crosstab.h \
+ instanceStream.h instance.h ALGLIB_specialfunctions.h ALGLIB_ap.h \
+ alglibinternal.h
+alglibinternal.o: alglibinternal.cpp alglibinternal.h ALGLIB_ap.h
+externLearner.o: externLearner.cpp externLearner.h instanceStream.h \
+ instance.h
+instance.o: instance.cpp instanceStream.h instance.h
+learnerRegistry.o: learnerRegistry.cpp learnerRegistry.h learner.h \
+ instanceStream.h instance.h capabilities.h utils.h mtrand.h FILEtype.h \
+ crosstab.h baggedLearner.h xyDist.h smoothing.h DTree.h \
+ IndirectInstanceStream.h AddressableInstanceStream.h \
+ instanceStreamFilter.h ensembleLearner.h featingLearner.h \
+ instanceStreamDiscretiser.h discretiser.h kdb.h incrementalLearner.h \
+ distributionTree.h xxyDist.h yDist.h localkdb.h xxxyDist.h cmikdb.h \
+ trainclasskdb.h crosstab3d.h kdbEager.h distributionTreeEager.h vfan.h \
+ hnb.h myhnb.h myhnb_new.h hnb_aode.h xxxxyDist.h waode.h hnb_waode.h \
+ kdbExt.h kdbCondDisc.h kdbCondDisc2.h nb.h tan_gen.h TAN_pro.h tan.h \
+ random.h RFDTree.h aodeDist.h aode.h aodeChen.h aodeEager.h \
+ xxyDistEager.h a2de.h a2de2.h xxxyDist2.h a2de3.h xxxyDist3.h a3de.h \
+ aodeselect.h sample.h aode_order_ConMur.h aodedouble.h aodeMarkov.h \
+ kdbOri.h kdbext2.h
+xVal.o: xVal.cpp xVal.h instanceStream.h instance.h FilterSet.h \
+ instanceStreamFilter.h utils.h mtrand.h FILEtype.h crosstab.h learner.h \
+ capabilities.h xValInstanceStream.h globals.h \
+ instanceStreamDiscretiser.h discretiser.h correlationMeasures.h \
+ crosstab3D.h xyDist.h smoothing.h xxyDist.h xxxyDist.h
+ALGLIB_specialfunctions.o: ALGLIB_specialfunctions.cpp \
+ ALGLIB_specialfunctions.h ALGLIB_ap.h alglibinternal.h
+externXVal.o: externXVal.cpp externXVal.h instanceStream.h instance.h \
+ FilterSet.h instanceStreamFilter.h utils.h mtrand.h FILEtype.h \
+ crosstab.h learner.h capabilities.h xValInstanceStream.h globals.h \
+ externLearner.h extLearnPetal.h extLearnLibSVM.h extLearnSVMSGD.h \
+ extLearnOMCLPBoost.h extLearnWeka.h
+instanceFile.o: instanceFile.cpp instanceFile.h instanceStream.h \
+ instance.h utils.h mtrand.h FILEtype.h crosstab.h globals.h
+learningCurves.o: learningCurves.cpp learningCurves.h instanceStream.h \
+ instance.h FilterSet.h instanceStreamFilter.h utils.h mtrand.h \
+ FILEtype.h crosstab.h learner.h capabilities.h StoredInstanceStream.h \
+ AddressableInstanceStream.h StoredIndirectInstanceStream.h \
+ IndirectInstanceStream.h IndirectInstanceSubstream.h globals.h \
+ incrementalLearner.h
+xValInstanceStream.o: xValInstanceStream.cpp xValInstanceStream.h \
+ instanceStream.h instance.h mtrand.h
+aode.o: aode.cpp aode.h incrementalLearner.h learner.h instanceStream.h \
+ instance.h capabilities.h xxxxyDist.h xxxyDist.h xxyDist.h xyDist.h \
+ smoothing.h utils.h mtrand.h FILEtype.h crosstab.h correlationMeasures.h \
+ crosstab3D.h globals.h
+aodeEager.o: aodeEager.cpp aodeEager.h incrementalLearner.h learner.h \
+ instanceStream.h instance.h capabilities.h xxyDistEager.h xyDist.h \
+ smoothing.h xxyDist.h utils.h mtrand.h FILEtype.h crosstab.h \
+ correlationMeasures.h crosstab3D.h xxxyDist.h globals.h
+extLearnLibSVM.o: extLearnLibSVM.cpp extLearnLibSVM.h externLearner.h \
+ instanceStream.h instance.h utils.h mtrand.h FILEtype.h crosstab.h
+extLearnWeka.o: extLearnWeka.cpp extLearnWeka.h externLearner.h \
+ instanceStream.h instance.h utils.h mtrand.h FILEtype.h crosstab.h \
+ correlationMeasures.h crosstab3D.h xyDist.h smoothing.h xxyDist.h \
+ xxxyDist.h
+instanceSample.o: instanceSample.cpp instanceSample.h \
+ AddressableInstanceStream.h instanceStreamFilter.h instanceStream.h \
+ instance.h mtrand.h utils.h FILEtype.h crosstab.h globals.h
+MDLDiscretiser.o: MDLDiscretiser.cpp MDLDiscretiser.h discretiser.h \
+ instanceStream.h instance.h utils.h mtrand.h FILEtype.h crosstab.h
+xxxyDist.o: xxxyDist.cpp xxxyDist.h xxyDist.h instanceStream.h instance.h \
+ xyDist.h smoothing.h
+capabilities.o: capabilities.cpp capabilities.h instanceStream.h \
+ instance.h utils.h mtrand.h FILEtype.h crosstab.h
+extLearnOMCLPBoost.o: extLearnOMCLPBoost.cpp extLearnOMCLPBoost.h \
+ externLearner.h instanceStream.h instance.h utils.h mtrand.h FILEtype.h \
+ crosstab.h
+instanceStreamClassFilter.o: instanceStreamClassFilter.cpp \
+ instanceStreamClassFilter.h instanceStreamFilter.h instanceStream.h \
+ instance.h utils.h mtrand.h FILEtype.h crosstab.h
+metadata.o: metadata.cpp metadata.h FILEtype.h
+xxyDist.o: xxyDist.cpp xxyDist.h instanceStream.h instance.h xyDist.h \
+ smoothing.h utils.h mtrand.h FILEtype.h crosstab.h globals.h
+extLearnPetal.o: extLearnPetal.cpp extLearnPetal.h externLearner.h \
+ instanceStream.h instance.h utils.h mtrand.h FILEtype.h crosstab.h
+instanceStream.o: instanceStream.cpp instanceStream.h instance.h utils.h \
+ mtrand.h FILEtype.h crosstab.h
+mtrand.o: mtrand.cpp mtrand.h
+xyDist.o: xyDist.cpp xyDist.h instanceStream.h instance.h smoothing.h \
+ utils.h mtrand.h FILEtype.h crosstab.h
+extLearnSVMSGD.o: extLearnSVMSGD.cpp extLearnSVMSGD.h externLearner.h \
+ instanceStream.h instance.h utils.h mtrand.h FILEtype.h crosstab.h
+instanceStreamDiscretiser.o: instanceStreamDiscretiser.cpp \
+ instanceStreamDiscretiser.h instanceStreamFilter.h instanceStream.h \
+ instance.h discretiser.h globals.h mtrand.h utils.h FILEtype.h \
+ crosstab.h eqDepthDiscretiser.h MDLDiscretiser.h
+nb.o: nb.cpp utils.h mtrand.h FILEtype.h crosstab.h instanceStream.h \
+ instance.h nb.h incrementalLearner.h learner.h capabilities.h xyDist.h \
+ smoothing.h
+yDist.o: yDist.cpp yDist.h instanceStream.h instance.h smoothing.h \
+ utils.h mtrand.h FILEtype.h crosstab.h
+correlationMeasures.o: correlationMeasures.cpp ALGLIB_specialfunctions.h \
+ ALGLIB_ap.h alglibinternal.h utils.h mtrand.h FILEtype.h crosstab.h \
+ instanceStream.h instance.h correlationMeasures.h crosstab3D.h xyDist.h \
+ smoothing.h xxyDist.h xxxyDist.h
+FilterSet.o: FilterSet.cpp FilterSet.h instanceStreamFilter.h \
+ instanceStream.h instance.h utils.h mtrand.h FILEtype.h crosstab.h
+instanceStreamFilter.o: instanceStreamFilter.cpp instanceStreamFilter.h \
+ instanceStream.h instance.h
+petal.o: petal.cpp instanceFile.h instanceStream.h instance.h utils.h \
+ mtrand.h FILEtype.h crosstab.h instanceStreamDiscretiser.h \
+ instanceStreamFilter.h discretiser.h instanceStreamClassFilter.h \
+ learningCurves.h FilterSet.h learner.h capabilities.h globals.h \
+ learnerRegistry.h ALGLIB_ap.h trainTest.h xVal.h biasvariance.h \
+ externXVal.h
+discretiser.o: discretiser.cpp discretiser.h instanceStream.h instance.h
+globals.o: globals.cpp
+kdbEager.o: kdbEager.cpp kdbEager.h incrementalLearner.h learner.h \
+ instanceStream.h instance.h capabilities.h distributionTreeEager.h \
+ utils.h mtrand.h FILEtype.h crosstab.h xxyDist.h xyDist.h smoothing.h \
+ yDist.h correlationMeasures.h crosstab3D.h xxxyDist.h globals.h
+kdb.o: kdb.cpp kdb.h incrementalLearner.h learner.h instanceStream.h \
+ instance.h capabilities.h distributionTree.h utils.h mtrand.h FILEtype.h \
+ crosstab.h xxyDist.h xyDist.h smoothing.h yDist.h correlationMeasures.h \
+ crosstab3D.h xxxyDist.h globals.h
+StoredInstanceStream.o: StoredInstanceStream.cpp StoredInstanceStream.h \
+ AddressableInstanceStream.h instanceStreamFilter.h instanceStream.h \
+ instance.h mtrand.h
+tan.o: tan.cpp tan.h incrementalLearner.h learner.h instanceStream.h \
+ instance.h capabilities.h xxyDist.h xyDist.h smoothing.h utils.h \
+ mtrand.h FILEtype.h crosstab.h correlationMeasures.h crosstab3D.h \
+ xxxyDist.h
+incrementalLearner.o: incrementalLearner.cpp incrementalLearner.h \
+ learner.h instanceStream.h instance.h capabilities.h
+random.o: random.cpp random.h learner.h instanceStream.h instance.h \
+ capabilities.h mtrand.h utils.h FILEtype.h crosstab.h
+StoredIndirectInstanceStream.o: StoredIndirectInstanceStream.cpp \
+ StoredIndirectInstanceStream.h IndirectInstanceStream.h \
+ AddressableInstanceStream.h instanceStreamFilter.h instanceStream.h \
+ instance.h mtrand.h
+IndirectInstanceSubstream.o: IndirectInstanceSubstream.cpp \
+ IndirectInstanceSubstream.h IndirectInstanceStream.h \
+ AddressableInstanceStream.h instanceStreamFilter.h instanceStream.h \
+ instance.h mtrand.h
+baggedLearner.o: baggedLearner.cpp baggedLearner.h learner.h \
+ instanceStream.h instance.h capabilities.h xyDist.h smoothing.h \
+ RFDTree.h DTree.h IndirectInstanceStream.h AddressableInstanceStream.h \
+ instanceStreamFilter.h mtrand.h learnerRegistry.h StoredInstanceStream.h \
+ StoredIndirectInstanceStream.h utils.h FILEtype.h crosstab.h
+xxyDistEager.o: xxyDistEager.cpp xxyDistEager.h instanceStream.h \
+ instance.h xyDist.h smoothing.h xxyDist.h utils.h mtrand.h FILEtype.h \
+ crosstab.h
+aodeDist.o: aodeDist.cpp aodeDist.h incrementalLearner.h learner.h \
+ instanceStream.h instance.h capabilities.h smoothing.h utils.h mtrand.h \
+ FILEtype.h crosstab.h correlationMeasures.h crosstab3D.h xyDist.h \
+ xxyDist.h xxxyDist.h globals.h
+kdbCondDisc.o: kdbCondDisc.cpp kdbCondDisc.h incrementalLearner.h \
+ learner.h instanceStream.h instance.h capabilities.h distributionTree.h \
+ utils.h mtrand.h FILEtype.h crosstab.h xxyDist.h xyDist.h smoothing.h \
+ yDist.h kdb.h instanceStreamDiscretiser.h instanceStreamFilter.h \
+ discretiser.h correlationMeasures.h crosstab3D.h xxxyDist.h globals.h \
+ MDLDiscretiser.h
+kdbCondDisc2.o: kdbCondDisc2.cpp kdbCondDisc2.h incrementalLearner.h \
+ learner.h instanceStream.h instance.h capabilities.h distributionTree.h \
+ utils.h mtrand.h FILEtype.h crosstab.h xxyDist.h xyDist.h smoothing.h \
+ yDist.h kdb.h instanceStreamDiscretiser.h instanceStreamFilter.h \
+ discretiser.h correlationMeasures.h crosstab3D.h xxxyDist.h globals.h \
+ MDLDiscretiser.h
+biasVarianceInstanceStream.o: biasVarianceInstanceStream.cpp \
+ biasVarianceInstanceStream.h instanceStream.h instance.h mtrand.h \
+ globals.h
+biasvariance.o: biasvariance.cpp biasvariance.h instanceFile.h \
+ instanceStream.h instance.h utils.h mtrand.h FILEtype.h crosstab.h \
+ FilterSet.h instanceStreamFilter.h learner.h capabilities.h \
+ biasVarianceInstanceStream.h globals.h instanceStreamDiscretiser.h \
+ discretiser.h
+aode_order_ConMur.o: aode_order_ConMur.cpp aodeselect.h crosstab.h \
+ incrementalLearner.h learner.h instanceStream.h instance.h \
+ capabilities.h xxxyDist.h xxyDist.h xyDist.h smoothing.h utils.h \
+ mtrand.h FILEtype.h correlationMeasures.h crosstab3D.h globals.h \
+ aode_order_ConMur.h
+aodeMarkov.o: aodeMarkov.cpp aodeselect.h crosstab.h incrementalLearner.h \
+ learner.h instanceStream.h instance.h capabilities.h xxxyDist.h \
+ xxyDist.h xyDist.h smoothing.h utils.h mtrand.h FILEtype.h \
+ correlationMeasures.h crosstab3D.h globals.h aodeMarkov.h
+aodedouble.o: aodedouble.cpp aodeselect.h crosstab.h incrementalLearner.h \
+ learner.h instanceStream.h instance.h capabilities.h xxxyDist.h \
+ xxyDist.h xyDist.h smoothing.h utils.h mtrand.h FILEtype.h \
+ correlationMeasures.h crosstab3D.h globals.h aodedouble.h
+kdbOri.o: kdbOri.cpp kdbOri.h incrementalLearner.h learner.h \
+ instanceStream.h instance.h capabilities.h distributionTree.h utils.h \
+ mtrand.h FILEtype.h crosstab.h xxyDist.h xyDist.h smoothing.h yDist.h \
+ correlationMeasures.h crosstab3D.h xxxyDist.h globals.h
+aodeChen.o: aodeChen.cpp aodeChen.h incrementalLearner.h learner.h \
+ instanceStream.h instance.h capabilities.h xxxxyDist.h xxxyDist.h \
+ xxyDist.h xyDist.h smoothing.h utils.h mtrand.h FILEtype.h crosstab.h \
+ correlationMeasures.h crosstab3D.h globals.h
+localkdb.o: localkdb.cpp localkdb.h incrementalLearner.h learner.h \
+ instanceStream.h instance.h capabilities.h distributionTree.h utils.h \
+ mtrand.h FILEtype.h crosstab.h xxyDist.h xyDist.h smoothing.h xxxyDist.h \
+ yDist.h correlationMeasures.h crosstab3D.h globals.h
+trainclasskdb.o: trainclasskdb.cpp trainclasskdb.h incrementalLearner.h \
+ learner.h instanceStream.h instance.h capabilities.h distributionTree.h \
+ utils.h mtrand.h FILEtype.h crosstab.h xxyDist.h xyDist.h smoothing.h \
+ xxxyDist.h yDist.h crosstab3d.h correlationMeasures.h globals.h
+cmikdb.o: cmikdb.cpp cmikdb.h incrementalLearner.h learner.h \
+ instanceStream.h instance.h capabilities.h distributionTree.h utils.h \
+ mtrand.h FILEtype.h crosstab.h xxxyDist.h xxyDist.h xyDist.h smoothing.h \
+ yDist.h correlationMeasures.h crosstab3D.h globals.h
